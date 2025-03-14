@@ -1,0 +1,23 @@
+{
+  "name": "LAKA-MD",
+  "description": "Laka Md in powerful WhatsApp Bot in Sri Lanka 🇱🇰",
+  "logo": "https://i.ibb.co/S7dLJ09m/image-1741156199535.jpg",
+  "keywords": ["lakamd", "bot", "whatsapp bot", "multi device", "laka-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
